@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/todolist-react-hooks/static/css/main.64c5ca1e.css",
-    "main.js": "/todolist-react-hooks/static/js/main.34d8c3a4.js",
-    "static/js/787.678a5ca4.chunk.js": "/todolist-react-hooks/static/js/787.678a5ca4.chunk.js",
-    "index.html": "/todolist-react-hooks/index.html",
-    "main.64c5ca1e.css.map": "/todolist-react-hooks/static/css/main.64c5ca1e.css.map",
-    "main.34d8c3a4.js.map": "/todolist-react-hooks/static/js/main.34d8c3a4.js.map",
-    "787.678a5ca4.chunk.js.map": "/todolist-react-hooks/static/js/787.678a5ca4.chunk.js.map"
+    "main.css": "/Todolist-react-hooks/static/css/main.64c5ca1e.css",
+    "main.js": "/Todolist-react-hooks/static/js/main.e26e8c73.js",
+    "static/js/787.678a5ca4.chunk.js": "/Todolist-react-hooks/static/js/787.678a5ca4.chunk.js",
+    "index.html": "/Todolist-react-hooks/index.html",
+    "main.64c5ca1e.css.map": "/Todolist-react-hooks/static/css/main.64c5ca1e.css.map",
+    "main.e26e8c73.js.map": "/Todolist-react-hooks/static/js/main.e26e8c73.js.map",
+    "787.678a5ca4.chunk.js.map": "/Todolist-react-hooks/static/js/787.678a5ca4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64c5ca1e.css",
-    "static/js/main.34d8c3a4.js"
+    "static/js/main.e26e8c73.js"
   ]
 }
