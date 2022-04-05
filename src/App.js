@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import React,{useState} from 'react';
 import './App.css';
+import TodostList from "./components/TodosList/TodosList";
+import TodosForm from "./components/TodosForm/TodosForm";
 
 function App() {
+  const [input,setInput] = useState("");
+  const [todos,setTodos] = useState([
+    {id:1,text:"i will need some food."},
+    {id:2,text:"i will go to the Mosque"},
+    {id:3,text:"today i will play"},
+    {id:4,text:"i will eat fish in morning"}
+  ]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <TodosForm input={input} setInput={setInput} todos={todos} setTodos={setTodos} />
+      <TodostList todos={todos} setTodos={setTodos} />
     </div>
   );
 }
